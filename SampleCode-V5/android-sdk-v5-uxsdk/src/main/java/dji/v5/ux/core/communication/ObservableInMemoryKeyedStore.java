@@ -57,7 +57,7 @@ public class ObservableInMemoryKeyedStore implements ObservableKeyedStore {
     }
 
     public static ObservableInMemoryKeyedStore getInstance() {
-        return ObservableInMemoryKeyedStore.SingletonHolder.instance;
+        return SingletonHolder.instance;
     }
 
     /**
